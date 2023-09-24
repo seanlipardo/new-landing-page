@@ -1,0 +1,151 @@
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@font-face {
+    font-family: myFont;
+    src: url(https://fonts.google.com/specimen/Inter);
+}
+
+@media screen and (max-width: 375) {
+    .read-more {
+        margin-bottom: 30px;
+    }
+}
+
+body {
+    background-color: hsl(36, 100%, 99%);
+    font-family: myFont, sans-serif;
+}
+
+#myNav {
+    word-spacing: 30px;
+}
+
+#main-img {
+    size: 4rem;
+    overflow: hidden;
+}
+
+.read-more {
+    border: none;
+    letter-spacing: 2px;
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+}
+
+#myNav .link:hover, .item2-a:hover, .item2-h2 {
+    color: hsl(35, 77%, 62%);
+}
+
+.item3-a:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.open-btn:hover, .close-btn:hover {
+    background-color: hsl(233, 8%, 79%);
+}
+
+.open-btn, .cls-btn {
+    display: hidden;
+}
+
+.read-more:hover  {
+    background-color: hsl(236, 13%, 42%);
+}
+
+p {
+    font-size: 15px;
+}
+
+#myNav a {
+    color: hsl(236, 13%, 42%);
+    text-decoration: none;
+}
+
+.item1-h1 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.item1-p {
+    color: hsl(236, 13%, 42%);
+}
+
+.item2 {
+    background-color: hsl(240, 100%, 5%);
+    height: 100%;
+}
+
+.item2-a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.item2-p {
+    color: hsl(233, 8%, 79%);
+}
+
+.item3-h3 {
+    color: hsl(233, 8%, 79%);
+}
+
+.item3-a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+}
+
+.item3-p {
+    color: hsl(236, 13%, 42%);
+}
+
+.item3-img {
+    height: 120px;
+    float: left;
+}
+
+hr.new {
+    border: 1px solid white;
+}
+
+.sideBar {
+    width: 0;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: hsl(233, 8%, 79%);
+    overflow-x: hidden;
+    transition: 0.4s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.sideBar a.link {
+    padding: 1rem 1rem;
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+    display: block;
+    transition: 0.4s;
+    white-space: nowrap;
+    font-size: 2rem;
+}
+
+.sideBar a.link:hover {
+    background-color: hsl(36, 100%, 99%);
+    color: hsl(233, 8%, 79%);
+}
+
+a.close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 0.7rem;
+}
+
+a.close-btn:hover {
+    background: initial;
+    transform: scale(1.2);
+}
+ 
